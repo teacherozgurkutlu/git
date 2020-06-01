@@ -1,8 +1,8 @@
 # git
 git komutlarının kullanımını açıklayan repo<br/>
 
-Github üzerinde var olan bir repoyu bilgisayarımıza indirmek<br/>
-Üzerinde değişiklikler yaparak tekrar github'a yüklemek için:<br/>
+Github üzerinde var olan bir repoyu bilgisayarımıza indirmek ve 
+üzerinde değişiklikler yaparak tekrar github'a yüklemek için:<br/>
 
 İndirme işlemi yapmak istediğiniz klasöre gidin (masaüstü yada d sürücüsü gibi)<br/>
 git clone https://github.com/.....<br/>
