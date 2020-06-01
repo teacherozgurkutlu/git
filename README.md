@@ -12,25 +12,25 @@ git komutlarının kullanımını açıklayan repo<br/>
 
 Üsteki komut sonrasında repo isminde bir klasör oluşacaktır. Bu klasör içerisine girerek aşağıdaki komutları yazınız<br/>
 
-      git status<br/>
+      git status
           
 
 Dosyalarda istediğiniz değişikleri yapın<br/>
 
-      git status<br/>
+      git status
 
-      git config --global user.name "kullanıcı adınız"<br/>
-      git config --global user.email mailadresiniz@gmail.com<br/>
+      git config --global user.name "kullanıcı adınız"
+      git config --global user.email mailadresiniz@gmail.com
 
-      git config --list<br/>
+      git config --list
 
-      git commit -a -m "kayıtlar eklendi"<br/>
+      git commit -a -m "kayıtlar eklendi"
 
-      git remote<br/>
+      git remote
 
-      git remote -v<br/>
+      git remote -v
 
-      git push origin master<br/>
+      git push origin master
 
 İlk sefer için kullanıcı adı ve şifre girilir. Dosyalar Github hesabımızda ilgili repoya upload edilir.
 
@@ -38,39 +38,39 @@ Dosyalarda istediğiniz değişikleri yapın<br/>
 
 Proje klasörünün içerisine girilir.<br/>
 
-      git init<br/>
+      git init
 
-      git add dance.txt<br/>
+      git add dance.txt
 
-      git add .<br/>
+      git add .
 
-      git status<br/>
+      git status
 
-      git commit -m "Dosya yada dosyalar eklendi"<br/>
+      git commit -m "Dosya yada dosyalar eklendi"
 
-      git remote add origin https://github.com/.....<br/>
+      git remote add origin https://github.com/.....
 
 origin dısında başka remote adresleri eklenebilir. Bu adresler push işlemi sırasında istenen adrese yüklemek için kullanılır.<br/>
 
-      git remote remove origin<br/>
+      git remote remove origin
 
 <b>Github web sayfası üzerinden dosyalar üzerinde yapılan değişiklikleri local klasörümüze almak için:</b> <br/>
 
-      git pull origin master<br/>
+      git pull origin master
 
 <b>Branch oluşturmak ve değişiklik yapmak için:</b><br/>
 
-      git branch graphics<br/>
+      git branch graphics
 
-      git checkout graphics<br/>
+      git checkout graphics
 
-      git pull keegehan graphics<br/>
+      git pull keegehan graphics
 
-      git commit -m "keegehan merge işlemi"<br/>
+      git commit -m "keegehan merge işlemi"
 
-      git checkout master<br/>
+      git checkout master
 
-      git merge graphics<br/>
+      git merge graphics
 
       git push origin master
 
