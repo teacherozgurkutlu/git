@@ -5,19 +5,19 @@ git komutlarının kullanımını açıklayan repo<br/>
 üzerinde değişiklikler yaparak tekrar github'a yüklemek için:</b><br/>
 
 İndirme işlemi yapmak istediğiniz klasöre gidin (masaüstü yada d sürücüsü gibi)<br/>
--git clone https://github.com/.....<br/>
+      -git clone https://github.com/.....<br/>
 
 .... yerine indirmek istediğiniz klasörün adresi yazılmalıdır<br/>
 
 Üsteki komut sonrasında repo isminde bir klasör oluşacaktır. Bu klasör içerisine girerek aşağıdaki komutu yazınız<br/>
-git status<br/>
+      -git status<br/>
 
 Dosyalarda istediğiniz değişikleri yapın<br/>
 
--git status<br/>
+      -git status<br/>
 
--git config --global user.name "kullanıcı adınız"<br/>
--git config --global user.email mailadresiniz@gmail.com<br/>
+      -git config --global user.name "kullanıcı adınız"<br/>
+      -git config --global user.email mailadresiniz@gmail.com<br/>
 
 -git config --list<br/>
 
