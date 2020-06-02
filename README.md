@@ -74,7 +74,12 @@ origin dısında başka remote adresleri eklenebilir. Bu adresler push işlemi s
 
       git push origin master
 
+<b>Merge işlemi ile ilgili sorun olursa</b>
 
+      git fetch         //Dosyaların repoyla farklılık gösterip göstermediğini kontrol eder
+      
+      git merge origin/master
+  
 
 
 
