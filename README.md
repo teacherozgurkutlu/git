@@ -81,7 +81,11 @@ origin dısında başka remote adresleri eklenebilir. Bu adresler push işlemi s
       git merge origin/master
   
 
+<b>heroku config dosyasına API_KEY ekleme</b>
 
+      heroku config           //heroku projesindeki değişkenleri gösterecektir.
+      
+      heroku config:set API_KEY=123456asdd          //process.env.API_KEY ile ulaşılabilir
 
 
 
